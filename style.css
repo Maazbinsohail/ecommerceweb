@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body {
+  background: #000 !important;
+  color: #fff !important;
+}
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./high-angle-view-of-shoes-322207.jpg);
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+}
+ul {
+  float: right;
+  list-style-type: none;
+  margin-top: 25px;
+}
+ul li {
+  display: inline-block;
+}
+ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+}
+ul li a:hover {
+  background-color: #ffb900;
+  color: 000;
+}
+ul li .active a {
+  background-color: #ffb900;
+  color: 000;
+}
+.logo img {
+  float: left;
+  width: 150px;
+  height: auto;
+}
+.main {
+  max-width: 1200px;
+  margin: auto;
+}
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.title h1 {
+  color: #ffffff;
+  font-size: 70px;
+  text-align: center;
+}
+.button {
+  position: absolute;
+  top: 68%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  flex-wrap: wrap;
+}
+.btn {
+  border: 1px solid #ffffff;
+  padding: 10px 30px;
+  color: white;
+  text-decoration: none;
+  transition: 0.6s ease;
+}
+.btn:hover {
+  background-color: #ffb900;
+  color: 000;
+}
+
+.conatiner {
+  width: 100px;
+  margin: top 10%;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+}
+.conatiner h2 {
+  background: #0062cc;
+  color: #ffffff;
+  width: 200px;
+  font-size: 24px;
+  padding: 5px;
+  height: 40px;
+}
+.conatiner h2 {
+  border-top: 40px solid #0062cc;
+  border-right: 40px solid transparent;
+  position: relative;
+  left: 48px;
+  right: 34px;
+}
+
+.row {
+  margin-top: 30px;
+}
+img {
+  width: 50%;
+}
+.product-bottom .fa {
+  color: #28a745;
+  font-size: 10px;
+}
+
+.product-bottom h3 {
+  font: size 20px;
+  font-weight: bold;
+}
+.product-bottom h5 {
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+
+.overlay {
+  display: block;
+  /* opacity: 0; */
+  position: absolute;
+  margin-left: 0;
+  width: 50px;
+}
+.product-top:hover.overlay {
+  opacity: 1px;
+  margin-left: 5%;
+  transition: 0.5s;
+}
+.overlay .fa {
+  cursor: pointer;
+  background-color: #555;
+  color: #000;
+  height: 35px;
+  width: 35px;
+  font-size: 20px;
+  padding: 7px;
+  margin: 5%;
+  margin-bottom: 5%;
+}
+.btn- secondary {
+  border: none !important;
+  box-shadow: none !important;
+}
